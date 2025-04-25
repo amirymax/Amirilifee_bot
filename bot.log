@@ -8,3 +8,5 @@
 2025-04-25 18:54:21,767 - INFO - aiogram.event - Update id=291128488 is handled. Duration 109 ms by bot id=7227542720
 2025-04-25 18:54:59,473 - INFO - aiogram.event - Update id=291128489 is handled. Duration 109 ms by bot id=7227542720
 2025-04-25 18:55:07,834 - INFO - aiogram.event - Update id=291128490 is handled. Duration 171 ms by bot id=7227542720
+2025-04-25 19:05:29,044 - INFO - aiogram.dispatcher - Polling stopped for bot @baroi_darsho_bot id=7227542720 - 'Боти Амири барои дарсҳо'
+2025-04-25 19:05:29,044 - INFO - aiogram.dispatcher - Polling stopped
