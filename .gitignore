@@ -1,3 +1,4 @@
 env/
-./api__token.py
 __pycache__/
+api_token.py
+api_token.py
