@@ -1,12 +1,7 @@
-2025-04-25 18:53:55,037 - INFO - aiogram.dispatcher - Start polling
-2025-04-25 18:53:55,202 - INFO - aiogram.dispatcher - Run polling for bot @baroi_darsho_bot id=7227542720 - 'Боти Амири барои дарсҳо'
-2025-04-25 18:53:57,404 - INFO - aiogram.event - Update id=291128483 is handled. Duration 156 ms by bot id=7227542720
-2025-04-25 18:53:58,437 - INFO - aiogram.event - Update id=291128484 is handled. Duration 141 ms by bot id=7227542720
-2025-04-25 18:53:59,958 - INFO - aiogram.event - Update id=291128485 is handled. Duration 125 ms by bot id=7227542720
-2025-04-25 18:54:11,192 - INFO - aiogram.event - Update id=291128486 is handled. Duration 125 ms by bot id=7227542720
-2025-04-25 18:54:19,512 - INFO - aiogram.event - Update id=291128487 is handled. Duration 78 ms by bot id=7227542720
-2025-04-25 18:54:21,767 - INFO - aiogram.event - Update id=291128488 is handled. Duration 109 ms by bot id=7227542720
-2025-04-25 18:54:59,473 - INFO - aiogram.event - Update id=291128489 is handled. Duration 109 ms by bot id=7227542720
-2025-04-25 18:55:07,834 - INFO - aiogram.event - Update id=291128490 is handled. Duration 171 ms by bot id=7227542720
-2025-04-25 19:05:29,044 - INFO - aiogram.dispatcher - Polling stopped for bot @baroi_darsho_bot id=7227542720 - 'Боти Амири барои дарсҳо'
-2025-04-25 19:05:29,044 - INFO - aiogram.dispatcher - Polling stopped
+2025-04-27 13:43:51,155 - INFO - aiogram.dispatcher - Start polling
+2025-04-27 13:43:51,631 - INFO - aiogram.dispatcher - Run polling for bot @baroi_darsho_bot id=7227542720 - 'Боти Амири барои дарсҳо'
+2025-04-27 13:44:05,036 - INFO - aiogram.event - Update id=291128491 is handled. Duration 375 ms by bot id=7227542720
+2025-04-27 13:44:27,798 - INFO - aiogram.event - Update id=291128492 is handled. Duration 186 ms by bot id=7227542720
+2025-04-27 13:44:30,690 - INFO - aiogram.event - Update id=291128493 is handled. Duration 860 ms by bot id=7227542720
+2025-04-27 13:45:13,586 - INFO - aiogram.dispatcher - Polling stopped for bot @baroi_darsho_bot id=7227542720 - 'Боти Амири барои дарсҳо'
+2025-04-27 13:45:13,586 - INFO - aiogram.dispatcher - Polling stopped

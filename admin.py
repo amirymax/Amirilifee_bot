@@ -44,6 +44,7 @@ async def receive_broadcast_content(message: Message, state: FSMContext):
         f"Шумо мехоҳед чунин паёмро ба ҳама равон кунед?\n\n{message.text}",
         reply_markup=keyboard
     )
+
     await state.set_state(BroadcastState.waiting_for_confirmation)
 
 # ✅ Подтверждение
@@ -52,8 +53,9 @@ async def receive_broadcast_content(message: Message, state: FSMContext):
 @router.callback_query(F.data == "broadcast_confirm", BroadcastState.waiting_for_confirmation)
 async def confirm_broadcast(callback: CallbackQuery, state: FSMContext, bot: Bot):
     await callback.answer()
+
     await callback.message.edit_text(callback.message.text + "✅")
-    # await callback.message.edit_reply_markup(None)
+
     data = await state.get_data()
     message = data["content"]
 
@@ -68,10 +70,7 @@ async def confirm_broadcast(callback: CallbackQuery, state: FSMContext, bot: Bot
     success = 0
     for uid in USER_IDS:
         try:
-            if message.content_type == "text":
-                await bot.send_message(uid, message.text)
-            elif message.content_type in ["voice", "video"]:
-                await bot.copy_message(uid, from_chat_id=callback.message.chat.id, message_id=message.message_id)
+            await bot.copy_message(uid, from_chat_id=callback.message.chat.id, message_id=message.message_id, parse_mode="Markdown")
             success += 1
         except Exception as e:
             logging.exception(f"Error while sending message to {uid}")
