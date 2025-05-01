@@ -33,9 +33,11 @@
 pip install -r requirements.txt
 ```
 
-2. Создайте файл `.env` с токеном:
+2. Создайте файл `api_token.py` с токеном:
 ```env
 BOT_TOKEN=ваш_токен_бота
+ADMIN_ID=ваш_id
+GROUP_ID=ГРУППА
 ```
 
 3. Запустите бота:
